@@ -10,23 +10,23 @@ import Property from "./Pages/Property/Property.jsx";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/React-Dummy-Website-01/",
     element: <App />,
   },
   {
-    path: "/about",
+    path: "/React-Dummy-Website-01/about",
     element: <About />,
   },
   {
-    path: "/property",
+    path: "/React-Dummy-Website-01/property",
     element: <Property />,
   },
   {
-    path: "/pages",
+    path: "/React-Dummy-Website-01/pages",
     element: <Testimonial />,
   },
   {
-    path: "/contact",
+    path: "/React-Dummy-Website-01/contact",
     element: <Contact />,
   },
 ]);

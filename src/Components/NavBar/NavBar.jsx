@@ -22,7 +22,7 @@ function NavBar() {
 
   return (
     <div className={fix ? " nav-bar fixed" : "nav-bar"}>
-      <Link to="/">
+      <Link to="/React-Dummy-Website-01/">
         <div className="nav-logo flex items-center gap-3">
           <img
             src={Deal_icon}
@@ -34,11 +34,11 @@ function NavBar() {
       </Link>
       <div className="nav-menu  flex gap-9 item-center">  
         <div className={openMenu ? "nav-menu-links open":"nav-menu-links close"}>
-          <MenuLinks menuname="HOME" url="/" />
-          <MenuLinks menuname="ABOUT" url="/about" />
-          <MenuLinks menuname="PROPERTY" url="/property" />
-          <MenuLinks menuname="PAGES" url="/pages" />
-          <MenuLinks menuname="CONTACT" url="/contact" />
+          <MenuLinks menuname="HOME" url="/React-Dummy-Website-01/" />
+          <MenuLinks menuname="ABOUT" url="/React-Dummy-Website-01/about" />
+          <MenuLinks menuname="PROPERTY" url="/React-Dummy-Website-01/property" />
+          <MenuLinks menuname="PAGES" url="/React-Dummy-Website-01/pages" />
+          <MenuLinks menuname="CONTACT" url="/React-Dummy-Website-01/contact" />
         </div>
         <div className={openMenu ? "open-menu close":"open-menu open"}>
           <span className="text-main text-4xl" onClick={()=>{
@@ -56,7 +56,7 @@ function NavBar() {
         </div>
 
         <div className="nav-button">
-          <Link to="/">
+          <Link to="/React-Dummy-Website-01/">
             <button className="bg-main px-6 py-2 rounded-lg font-medium hover:bg-[#00b99f]">
               Add Property
             </button>
