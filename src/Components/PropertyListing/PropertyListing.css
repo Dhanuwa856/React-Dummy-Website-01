@@ -1,0 +1,11 @@
+.list-icons {
+  border-top: 1px dashed #00b98e;
+  padding-top: 10px;
+}
+.side-line {
+  border-right: 1px dashed #00b98e;
+  padding-right: 10px;
+}
+.listing-boxes{
+  grid-template-columns: 1fr 1fr 1fr;
+}

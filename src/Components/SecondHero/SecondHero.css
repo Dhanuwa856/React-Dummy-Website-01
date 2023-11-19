@@ -1,0 +1,5 @@
+.menu-side::after{
+content: "/";
+color: #999;
+padding-left: 15px;
+}

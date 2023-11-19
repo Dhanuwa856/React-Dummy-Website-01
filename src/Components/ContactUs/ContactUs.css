@@ -1,0 +1,19 @@
+.box-bg{
+  background: rgba(0, 184, 141,0.1);
+  width: 100%;
+  padding: 15px;
+}
+.box{
+  background: #fff;
+  padding: 20px;
+  border: 1px dashed #00b98e;
+}
+.icon-b{
+  width: 40px;
+  height: 40px;
+  border: 1px dashed #00b98e;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,20 @@
+.hover01 img {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+.hover01:hover img {
+  -webkit-transform: scale(1.5);
+  transform: scale(1.1);
+}
+figure {
+  overflow: hidden;
+}
+.item-text{
+   /* to remain title in 2 lines */
+   display: -webkit-box;
+   -webkit-line-clamp: 2;
+   -webkit-box-orient: vertical;
+   overflow: hidden;
+}

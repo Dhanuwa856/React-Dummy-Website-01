@@ -1,0 +1,31 @@
+.input-boxes input {
+  width: 27%;
+  height: 50px;
+  border-radius: 5px;
+  padding-left: 20px;
+  color: #666;
+  border: 0;
+  outline: 0;
+  background: #fff;
+}
+select {
+  width: 27%;
+  height: 50px;
+  border-radius: 6px;
+  padding-left: 20px !important;
+  color: #666 !important;
+  border: 0;
+  outline: 0;
+  background: #fff;
+}
+::placeholder {
+  color: #666 !important;
+}
+.input-boxes button {
+  width: 19%;
+  color: #fff;
+  font-weight: 500;
+  font-size: 17px;
+  background: #0e2e50;
+  border-radius: 5px;
+}

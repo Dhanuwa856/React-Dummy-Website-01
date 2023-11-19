@@ -1,0 +1,17 @@
+.social-icons{
+  transform: translate(-50%);
+}
+.social-icons span{
+  background-color: #fff;
+  border-radius: 50%;
+  width: 37px;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.social-icons span:hover{
+  background: #00b98e;
+  color: #fff;
+}

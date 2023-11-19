@@ -1,0 +1,44 @@
+.property-box-bg {
+  background: rgba(0, 184, 141, 0.15);
+  padding: 15px;
+  width: max-content;
+  border-radius: 4px;
+}
+.property-box {
+  background: #fff;
+  border: 1px dashed #00b98e;
+  padding: 50px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  align-items: center;
+}
+.property-box img {
+  width: 45px;
+}
+.img-border {
+  display: flex;
+  border-radius: 50%;
+  border: 1px dashed #00b98e;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  height: 75px;
+}
+.property-box:hover {
+  background: #00b98e;
+}
+.property-box:hover h5 {
+  color: #fff;
+}
+.property-box:hover p {
+  color: #fff;
+}
+.property-box:hover .img-border {
+  background: #fff;
+}
+.hover-color {
+  color: inherit;
+  background: inherit;
+}

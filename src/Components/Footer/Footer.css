@@ -1,0 +1,51 @@
+.so-icon span {
+  border: 1px solid #555;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.so-icon span:hover {
+  background: #fff;
+  color: #00b98e;
+}
+.ul-eka li::before {
+  content: ">";
+  margin-right: 10px;
+  font-size: 17px;
+  color: #aaa;
+}
+.ul-eka li {
+  color: #aaa;
+  transition: 0.5s;
+  margin-bottom: 5px;
+}
+.ul-eka li:hover {
+  letter-spacing: 1.2px;
+}
+.grid-eka {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.input-eka {
+  background: transparent !important;
+  border: 1px solid #aaa;
+  display: flex;
+  flex: 1;
+  height: 60px;
+  outline: none;
+  color: #aaa;
+}
+.btn-eka {
+  transform: translateY(-50%);
+}
+.input-eka:focus {
+  border-color: #00b98e;
+}
+.side-bar {
+  border-right: 1px solid #fff;
+  padding-right: 20px;
+}

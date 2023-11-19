@@ -1,0 +1,9 @@
+.cooment-bg{
+  background: rgba(0, 184, 141,0.1);
+  padding: 15px;
+}
+.cooment{
+  background: #fff;
+  padding: 20px;
+  border: 1px dashed #00b98e;
+}

@@ -1,0 +1,12 @@
+.agent-box-bg {
+  background: rgba(0, 186, 143, 0.1);
+  width: 100%;
+
+  padding: 20px;
+}
+.agent-box {
+  border: 1px dashed #00b98e;
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+}

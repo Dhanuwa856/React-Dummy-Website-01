@@ -1,0 +1,268 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+::selection {
+  background: #00b98e;
+  color: #fff;
+}
+.active {
+  color: #00b98e;
+  background: transparent !important;
+}
+.menu-links {
+  transition: 3s;
+}
+@media screen and (max-width: 1090px) {
+  .nav-menu-links {
+    flex-direction: column;
+    align-items: start;
+    gap: 15px;
+  }
+  .nav-button {
+    display: none;
+  }
+  .open-menu {
+    display: flex;
+  }
+  .close {
+    display: none;
+  }
+  .open {
+    display: flex;
+  }
+  .property-boxes {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .btn-eka {
+    left: 65%;
+  }
+  .site-name{
+    font-size: 45px;
+  }
+  .contact-us-boxes{
+    display: grid;
+  }
+  .map-eka{
+    display: grid;
+  }
+  .map{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .message-boxes{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 860px) {
+  .listing-boxes {
+    grid-template-columns: 1fr 1fr;
+  }
+  .agent-list-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .agent-list-box {
+    width: 70%;
+  }
+  .hero-right {
+    position: relative;
+    left: 0;
+  }
+  .agent-box-h4 {
+    margin-top: 10px;
+  }
+  .agent-box-btn {
+    white-space: nowrap;
+    padding: 7px;
+  }
+  .agent-box-btns {
+    gap: 12px;
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-item {
+    width: 100%;
+  }
+  .header-img{
+    position: relative;
+    left: 0;
+  }
+  .site-name{
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 690px) {
+  .nav-bar {
+    width: 100%;
+  }
+  .hero-right {
+    display: none;
+  }
+  .hero-left {
+    text-align: center;
+    width: 100%;
+    margin-top: 110px;
+  }
+  .input-boxes {
+    display: grid;
+    width: 95%;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .input-boxes input {
+    width: 100%;
+  }
+  select {
+    width: 100%;
+  }
+  .input-boxes button {
+    width: 60%;
+    position: relative;
+    left: 250%;
+  }
+  .property-boxes {
+    grid-template-columns: 1fr 1fr;
+  }
+  .perfect-property {
+    display: grid;
+  }
+  .perfect-property-left {
+    width: 100%;
+  }
+  .perfect-property-left img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    object-position: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .perfect-property-right {
+    width: 100%;
+  }
+  .perfect-property-right h1 {
+    text-align: center;
+  }
+  .perfect-property-right .p-text {
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .perfect-property-right-list {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: relative;
+    left: 40%;
+    transform: translate(-25%, 0%);
+  }
+  .perfect-property-right button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .agent-box-btn {
+    padding: 4px;
+  }
+  .agent-box-btns {
+    flex-direction: column;
+  }
+  .agent-box p {
+    display: none;
+  }
+  .agent-right h4 {
+    text-align: center;
+  }
+  .site-name{
+    font-size: 36px;
+  }
+  .second-hero{
+    display: grid;
+  }
+  .second-hero div{
+    width: 100%;
+   margin-top: 40px;
+  }
+  .messbox-input{
+    display: grid;
+    
+  }
+  .messbox-input input{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 540px) {
+  .property-box-bg {
+    padding: 7px;
+  }
+  .property-box {
+    padding: 20px;
+  }
+  .property-box img {
+    width: 30px;
+  }
+  .img-border {
+    width: 60px;
+    height: 60px;
+  }
+  .property-boxes {
+    width: 85%;
+  }
+  .input-boxes {
+    grid-template-columns: 1fr;
+  }
+  .input-boxes button {
+    position: inherit;
+  }
+  .listing-boxes {
+    grid-template-columns: 1fr;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .agent-list-boxes {
+    grid-template-columns: 1fr;
+  }
+
+  .carosel-text {
+    /* to remain title in 5 lines */
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .cooment {
+    padding: 7px;
+    margin-top: 20px;
+  }
+  .cooment-bg {
+    padding: 5px;
+  }
+  .carousel-main {
+    height: 60vh;
+  }
+  .footer-grid {
+    grid-template-columns: 1fr;
+  }
+  .btn-eka {
+    left: 75%;
+  }
+  .listing-btn {
+    white-space: nowrap;
+    flex-direction: column;
+  }
+  .listing-btn {
+    padding: 5px;
+  }
+  .site-name{
+    font-size: 30px;
+  }
+}

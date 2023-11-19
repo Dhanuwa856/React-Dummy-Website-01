@@ -1,0 +1,38 @@
+.nav-bar {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  color: #fff;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 44px;
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+    0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color),
+    0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  z-index: 100;
+  transition: 2s;
+}
+.nav-menu-links{
+  display: flex;
+  gap: 36px;
+  align-items: center;
+}
+
+.fixed {
+  position: sticky !important;
+  top: 0 !important;
+  width: 100% !important;
+  transition: 2s;
+}
+.open-menu,.close-menu{
+  display: none;
+}
